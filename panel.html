@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="devtools.js"></script>
   <title>Convert to Python Requests</title>
+  <script src="panel.js" defer></script>
 </head>
 <body>
+  <textarea id="fetchInput" placeholder="Paste the Fetch command here..." rows="10" cols="80"></textarea>
   <button id="convertBtn">Convert to Python Requests</button>
-  <script src="panel.js"></script> <!-- Moved to end of body -->
+  <pre id="output"></pre>
 </body>
 </html>
